@@ -13,6 +13,9 @@ describe("FizzBuzz", () => {
   it("generar el Fiz para multiplos de 3", () => {
     expect(generarFizzBuzz(6)).toEqual("Fizz");
   });
+  it("generar el Buzz para el 5", () => {
+    expect(generarFizzBuzz(5)).toEqual("Buzz");
+  });
 
 
 });
