@@ -1,4 +1,4 @@
-import generarFizzBuzz from "./fizzbuzz.js";
+import {generarFizzBuzz, secuencia } from "./fizzbuzz.js";
 
 describe("FizzBuzz", () => {
   it("generar el mismo numero si no sigue ninguna regla", () => {
@@ -19,6 +19,10 @@ describe("FizzBuzz", () => {
   it("generar el Buzz para multiplos del 5", () => {
     expect(generarFizzBuzz(10)).toEqual("Buzz");
   });
+  it("Imprimir secuencia", () => {
+    expect(secuencia(10)).toEqual("1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz");
+  });
+  
 });
 
 

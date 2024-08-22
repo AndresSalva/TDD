@@ -7,4 +7,17 @@ function generarFizzBuzz(numero){
     }
     return numero+"";
 }
-export default generarFizzBuzz;
+function secuencia(numero) {
+    let resultado = '';
+
+    for (let i = 1; i <= numero; i++) {
+        if (i === 1){
+            resultado += generarFizzBuzz(i);  
+        }
+        else{
+            resultado += ", " + generarFizzBuzz(i);
+        }
+    }
+    return resultado;
+}
+export {generarFizzBuzz,secuencia};
