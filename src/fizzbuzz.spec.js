@@ -22,6 +22,9 @@ describe("FizzBuzz", () => {
   it("Imprimir secuencia", () => {
     expect(secuencia(10)).toEqual("1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz");
   });
+  it("Imprimir secuencia y si es multiplo de 3 y 5 muestra FizzBuzz", () => {
+    expect(secuencia(15)).toEqual("1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz");
+  });
   
 });
 
