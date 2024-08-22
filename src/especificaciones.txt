@@ -1,0 +1,9 @@
+Pruebas
+- generar un numero 
+- generar fizz para el 3
+- generar fizz para multiplos de 3
+- generar buzz para el 5
+- generar buzz para multiplos de 5
+- imprimir la secuencia (1,2,fizz,...)
+diseno
+
